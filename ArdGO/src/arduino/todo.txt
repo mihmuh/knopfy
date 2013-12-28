@@ -1,0 +1,8 @@
+1) sound signal for ticks
+   sound signal for start round
+   sound signal for false start
+   sound signal after 20 sec from round start (?)
+
+2) if button is pressed before start, player is banned for the round
+
+3) show a random word when the round starts
