@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ec66dee-135b-4520-8010-29eeabe66b0d" name="Default" comment="" />
+    <list default="true" id="4ec66dee-135b-4520-8010-29eeabe66b0d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ArdGO.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arduino/ArduinoMain.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/arduino_read.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arduino/ArduinoTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="arduino_read.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/ArduinoTest.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1387979480514" ignored="false" />
+    <file path="/ArduinoTest.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1388265009323" ignored="false" />
     <file path="/fragment.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1388002899964" ignored="false" />
     <file path="/MainFrame.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1387994551399" ignored="false" />
     <file path="/PortHandler.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1387994514737" ignored="false" />
     <file path="$USER_HOME$/work/mps/editor/actions-runtime/source/jetbrains/mps/smodel/action/AbstractChildNodeSetter.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1388002512343" ignored="false" />
-    <file path="/Dummy.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1388002512344" ignored="false" />
+    <file path="/Dummy.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1388265055384" ignored="false" />
     <file path="/todo.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1388264755382" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +79,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="ArduinoMain.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/arduino/ArduinoMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="18" selection-start="494" selection-end="494" vertical-scroll-proportion="0.36363637">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MainFrame.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arduino/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todo.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="todo.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arduino/todo.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="43" selection-start="254" selection-end="254" vertical-scroll-proportion="0.13962767">
+            <state line="7" column="43" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,14 +122,23 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/arduino/Main.java" />
-        <option value="$PROJECT_DIR$/src/arduino/ArduinoTest.java" />
         <option value="$PROJECT_DIR$/src/arduino/PortHandler.java" />
         <option value="$PROJECT_DIR$/src/arduino/MainFrame.java" />
         <option value="$PROJECT_DIR$/src/arduino/todo.txt" />
+        <option value="$PROJECT_DIR$/src/arduino/ArduinoTest.java" />
+        <option value="$PROJECT_DIR$/src/arduino/ArduinoMain.java" />
       </list>
     </option>
   </component>
@@ -126,7 +152,7 @@
     <option name="width" value="1440" />
     <option name="height" value="874" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -152,6 +178,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,13 +236,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -226,14 +252,14 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.ArduinoTest">
+  <component name="RunManager" selected="Application.ArduinoMain">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -246,6 +272,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -273,19 +312,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -324,9 +350,9 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ArduinoTest" type="Application" factoryName="Application">
+    <configuration default="false" name="ArduinoMain" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="arduino.ArduinoTest" />
+      <option name="MAIN_CLASS_NAME" value="arduino.ArduinoMain" />
       <option name="VM_PARAMETERS" value="-Djava.library.path=&quot;$PROJECT_DIR$/rxtx/&quot;" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -335,7 +361,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="arduino_read" />
+      <module name="ArdGO" />
       <envs />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
@@ -351,7 +377,7 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.ArduinoTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ArduinoMain" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -391,10 +417,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32991013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -505,14 +531,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arduino/ArduinoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/arduino/ArduinoMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="24" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arduino_read.iml">
+    <entry file="file://$PROJECT_DIR$/ArdGO.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -547,23 +573,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arduino/ArduinoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/arduino/ArduinoMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="95" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arduino/ArduinoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/arduino/ArduinoMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arduino/ArduinoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -575,7 +594,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arduino_read.iml">
+    <entry file="file://$PROJECT_DIR$/ArdGO.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -598,7 +617,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arduino/todo.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="254" selection-end="254" vertical-scroll-proportion="0.13962767">
+        <state line="7" column="43" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arduino/ArduinoMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="18" selection-start="494" selection-end="494" vertical-scroll-proportion="0.36363637">
           <folding />
         </state>
       </provider>
@@ -655,7 +681,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>arduino_read</last-edited>
+          <last-edited>ArdGO</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
