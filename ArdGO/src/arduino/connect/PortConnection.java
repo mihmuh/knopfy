@@ -1,4 +1,4 @@
-package arduino;
+package arduino.connect;
 
 import gnu.io.CommPortIdentifier;
 import gnu.io.SerialPort;
@@ -10,7 +10,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Enumeration;
 
-public abstract class PortHandler implements SerialPortEventListener {
+abstract class PortConnection implements SerialPortEventListener {
   SerialPort serialPort;
 
   private static final String PORT_NAMES[] = {
@@ -72,7 +72,7 @@ public abstract class PortHandler implements SerialPortEventListener {
   public synchronized void serialEvent(SerialPortEvent oEvent) {
     if (oEvent.getEventType() == SerialPortEvent.DATA_AVAILABLE) {
       try {
-        got(input.read() - 47);
+        got(input.read() - 48/*ord('0')*/);
       } catch (Exception e) {
         System.err.println(e.toString());
       }
@@ -81,11 +81,12 @@ public abstract class PortHandler implements SerialPortEventListener {
 
   public void start() {
     try {
-      output.write(0 + 47/*ord('0')*/);
+      output.write(0 + 48/*ord('0')*/);
     } catch (IOException e) {
       e.printStackTrace();
     }
   }
 
-  protected abstract void got(int arg);
+  //player num starts with 0
+  protected abstract void got(int num);
 }
