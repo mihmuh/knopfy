@@ -1,38 +1,43 @@
 
-int master = 2;
-int players [] = {
-  3, 4, 5, 6, 7};
-int playersCount = 5;
+const int playersCount = 6;
+const int playerPorts [playersCount]= {
+  2, 3, 4, 5, 6, 7};
 
-void setup() {                
-//  pinMode(13, OUTPUT);
-  pinMode(master, INPUT_PULLUP);
+boolean wasPressed [playersCount];
+
+void setup() {           
+  clearBtnStatuses();  
   for(int i = 0; i < playersCount; i++) {
-    pinMode(players[i], INPUT_PULLUP);
+    pinMode(playerPorts[i], INPUT_PULLUP);
   }
   Serial.begin(9600);
 }
 
-boolean hasWinner;
 void loop() {
-  int val = digitalRead(master);
-  if(val==LOW){
-    hasWinner=false;
-    Serial.print(0);
-    while(!Serial.available()){
-    }
+  //PC can clear button statuses
+  if (Serial.available()){
     Serial.read();
-    
-    while (!hasWinner){
-      for(int i = 0; i < playersCount; i++) {
-        int w = digitalRead(players[i]);
-        if (w == LOW) {
-          Serial.print(i+1);
-          hasWinner=true;
-        }
-      }
+    clearBtnStatuses();
+  }
+
+  for(int i = 0; i < playersCount; i++) {
+    int w = digitalRead(playersPorts[i]);
+    if (w == LOW && !wasPressed[i]) {
+      Serial.print(i);
+      wasPressed[i]=true;
     }
   }
-  //delay(10);
 }
+
+void clearBtnStatuses(){
+  for (int i=0;i<playersCount;i++){
+    wasPressed[i] = false;
+  }
+}
+
+
+
+
+
+
 
