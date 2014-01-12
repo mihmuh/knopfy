@@ -8,7 +8,9 @@ public abstract class PlayerHandler extends NumHandler {
 
   @Override
   public final void got(int num) {
-    gotPlayer(ourMapping.get(num));
+    Integer realNum = ourMapping.get(num);
+    if (realNum == null) return;
+    gotPlayer(realNum);
   }
 
   protected abstract void gotPlayer(int playerNum);
