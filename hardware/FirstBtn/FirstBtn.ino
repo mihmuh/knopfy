@@ -21,7 +21,7 @@ void loop() {
   }
 
   for(int i = 0; i < playersCount; i++) {
-    int w = digitalRead(playersPorts[i]);
+    int w = digitalRead(playerPorts[i]);
     if (w == LOW && !wasPressed[i]) {
       Serial.print(i);
       wasPressed[i]=true;
