@@ -56,13 +56,8 @@ public class MainFrame extends JFrame {
 
     final JPanel namesPanel = new JPanel();
     namesPanel.setLayout(new BoxLayout(namesPanel, BoxLayout.Y_AXIS));
-    JButton setBtn = new AddPlayersBtn() {
-      protected void pressed(boolean starting) {
-        for (int i = 0; i < myNames.size(); i++) {
-          myNames.get(i).setEditable(starting);
-        }
-
-        if (!starting) return;
+    JButton setBtn = new JButton(new AbstractAction("Add Players") {
+      public void actionPerformed(ActionEvent e) {
         Connections.getInstance().startNewSession(new NumHandler() {
           public void got(final int num) {
             SwingUtilities.invokeLater(new Runnable() {
@@ -85,7 +80,7 @@ public class MainFrame extends JFrame {
           }
         });
       }
-    };
+    });
 
     base.add(namesPanel, BorderLayout.NORTH);
     base.add(setBtn, BorderLayout.SOUTH);
@@ -103,25 +98,26 @@ public class MainFrame extends JFrame {
     statusLabel.setHorizontalAlignment(SwingConstants.CENTER);
     statusLabel.setFont(statusLabel.getFont().deriveFont(WORD_FONT_SIZE));
 
-    final JButton myContinueBtn = new JButton(new AbstractAction("Continue") {
+    final JButton continueBtn = new JButton(new AbstractAction("Continue") {
       public void actionPerformed(ActionEvent e) {
         resumeGame(statusLabel);
       }
     });
-    myContinueBtn.setEnabled(false);
+    continueBtn.setEnabled(false);
 
-    JButton myNextRoundBtn = new JButton(new AbstractAction("Next Round") {
+    JButton nextRoundBtn = new JButton(new AbstractAction("Next Round") {
       public void actionPerformed(ActionEvent e) {
         word.setText(myStorage.getNextWord());
-        myContinueBtn.setEnabled(true);
+        continueBtn.setEnabled(true);
         resumeGame(statusLabel);
       }
     });
+    nextRoundBtn.setFocusable(true);
 
     JPanel buttonPanel = new JPanel();
     buttonPanel.setLayout(new BoxLayout(buttonPanel, BoxLayout.X_AXIS));
-    buttonPanel.add(myNextRoundBtn);
-    buttonPanel.add(myContinueBtn);
+    buttonPanel.add(nextRoundBtn);
+    buttonPanel.add(continueBtn);
 
     JPanel btnOuter = new JPanel(new GridBagLayout());
     btnOuter.add(buttonPanel, new GridBagConstraints(0, 0, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.NONE, new Insets(0, 0, 0, 0), 0, 0));
@@ -141,6 +137,11 @@ public class MainFrame extends JFrame {
   }
 
   private void resumeGame(final JLabel status) {
+    for (JTextField t : myNames) {
+      t.setEditable(false);
+      t.setFocusable(false);
+    }
+
     myStatusControl.show(myStatusPanel, STATUS_ID);
 
     for (int i = 0; i < myNames.size(); i++) {
