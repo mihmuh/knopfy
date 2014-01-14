@@ -1,21 +1,31 @@
 package arduino.words;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class WordStorage {
   private int index = 0;
   private List<String> myWords = new ArrayList<String>();
-  private final List<String> words;
 
   public WordStorage() {
-    //todo read
-    words = new ArrayList<String>();
-    words.add("word 1");
-    words.add("word 2");
-    words.add("word 3");
+    try {
+      BufferedReader in = new BufferedReader(new FileReader("words.txt"));
+      List<String> words = new ArrayList<String>();
 
-    reshuffle(words);
+      String s;
+      while ((s = in.readLine()) != null) {
+        words.add(s);
+      }
+      reshuffle(words);
+    } catch (IOException e) {
+      e.printStackTrace();
+      myWords.clear();
+      myWords.add("No words loaded");
+    }
   }
 
   private void reshuffle(List<String> words) {
@@ -30,7 +40,7 @@ public class WordStorage {
   public String getNextWord() {
     if (index == myWords.size()) {
       index = 0;
-      reshuffle(words);
+      reshuffle(new ArrayList<String>(myWords));
     }
     return myWords.get(index++);
   }
