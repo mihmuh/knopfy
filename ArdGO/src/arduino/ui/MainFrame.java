@@ -81,6 +81,7 @@ public class MainFrame extends JFrame {
         });
       }
     });
+    setBtn.setFocusable(false);
 
     base.add(namesPanel, BorderLayout.NORTH);
     base.add(setBtn, BorderLayout.SOUTH);
