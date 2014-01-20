@@ -19,6 +19,7 @@ public class MainFrame extends JFrame {
   public static final String BUTTONS_ID = "buttons";
   public static final String STATUS_ID = "status";
   public static final String EMPTY_ID = "empty";
+  public static final float BTN_TEXT_SIZE = 50.0f;
 
   private final List<JTextField> myNames = new ArrayList<JTextField>();
   private Round myRound = null;
@@ -56,7 +57,7 @@ public class MainFrame extends JFrame {
 
     final JPanel namesPanel = new JPanel();
     namesPanel.setLayout(new BoxLayout(namesPanel, BoxLayout.Y_AXIS));
-    JButton setBtn = new JButton(new AbstractAction("Add Players") {
+    JButton setBtn = new JButton(new AbstractAction("Neue Spielers") {
       public void actionPerformed(ActionEvent e) {
         Connections.getInstance().startNewSession(new NumHandler() {
           public void got(final int num) {
@@ -81,6 +82,7 @@ public class MainFrame extends JFrame {
         });
       }
     });
+    setBtn.setFont(setBtn.getFont().deriveFont(BTN_TEXT_SIZE));
     setBtn.setFocusable(false);
 
     base.add(namesPanel, BorderLayout.NORTH);
@@ -91,7 +93,7 @@ public class MainFrame extends JFrame {
   }
 
   private JPanel createRoundControl() {
-    final JLabel word = new JLabel("Add players, start");
+    final JLabel word = new JLabel("Ergänzen Spielers, starten");
     word.setHorizontalAlignment(SwingConstants.CENTER);
     word.setFont(word.getFont().deriveFont(WORD_FONT_SIZE));
 
@@ -99,20 +101,22 @@ public class MainFrame extends JFrame {
     statusLabel.setHorizontalAlignment(SwingConstants.CENTER);
     statusLabel.setFont(statusLabel.getFont().deriveFont(WORD_FONT_SIZE));
 
-    final JButton continueBtn = new JButton(new AbstractAction("Continue") {
+    final JButton continueBtn = new JButton(new AbstractAction("Weiter") {
       public void actionPerformed(ActionEvent e) {
         resumeGame(statusLabel);
       }
     });
+    continueBtn.setFont(continueBtn.getFont().deriveFont(BTN_TEXT_SIZE));
     continueBtn.setEnabled(false);
 
-    JButton nextRoundBtn = new JButton(new AbstractAction("Next Round") {
+    JButton nextRoundBtn = new JButton(new AbstractAction("Nächste Runde") {
       public void actionPerformed(ActionEvent e) {
         word.setText(myStorage.getNextWord());
         continueBtn.setEnabled(true);
         resumeGame(statusLabel);
       }
     });
+    nextRoundBtn.setFont(nextRoundBtn.getFont().deriveFont(BTN_TEXT_SIZE));
     nextRoundBtn.setFocusable(true);
 
     JPanel buttonPanel = new JPanel();
