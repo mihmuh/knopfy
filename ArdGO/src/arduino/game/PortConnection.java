@@ -1,4 +1,4 @@
-package arduino.connect;
+package arduino.game;
 
 import gnu.io.CommPortIdentifier;
 import gnu.io.SerialPort;
@@ -11,11 +11,13 @@ import java.io.OutputStream;
 import java.util.Enumeration;
 
 abstract class PortConnection implements SerialPortEventListener {
+  public static final int ORD0 = 48 /*ord('0')*/;
   SerialPort serialPort;
 
   private static final String PORT_NAMES[] = {
-          "/dev/tty.usbmodem1411", // Mac OS X
-          "/dev/tty.usbmodem1421", // Mac OS X
+          "/dev/tty.usbmodem1411", // Mac OS X,uno
+          "/dev/tty.usbmodem1421", // Mac OS X ,uno
+          "/dev/tty.usbserial-A6028DY4", // Mac OS X,nano
   };
 
   private InputStream input;
@@ -72,21 +74,20 @@ abstract class PortConnection implements SerialPortEventListener {
   public synchronized void serialEvent(SerialPortEvent oEvent) {
     if (oEvent.getEventType() == SerialPortEvent.DATA_AVAILABLE) {
       try {
-        got(input.read() - 48/*ord('0')*/);
+        pressed(input.read() - ORD0);
       } catch (Exception e) {
         System.err.println(e.toString());
       }
     }
   }
 
-  public void start() {
+  public void clear(int btnNum){
     try {
-      output.write(0 + 48/*ord('0')*/);
+      output.write(btnNum+ORD0);
     } catch (IOException e) {
       e.printStackTrace();
     }
   }
 
-  //player num starts with 0
-  protected abstract void got(int num);
+  protected abstract void pressed(int btnNum);
 }

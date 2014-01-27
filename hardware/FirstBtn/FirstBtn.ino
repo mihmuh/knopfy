@@ -1,12 +1,14 @@
 
-const int playersCount = 6;
+const int playersCount = 8;
 const int playerPorts [playersCount]= {
-  2, 3, 4, 5, 6, 7};
+  2, 3, 4, 5, 6, 7, 8, 9};
 
 boolean wasPressed [playersCount];
 
 void setup() {           
-  clearBtnStatuses();  
+  for (int i=0;i<playersCount;i++){
+    wasPressed[i] = false;
+  }
   for(int i = 0; i < playersCount; i++) {
     pinMode(playerPorts[i], INPUT_PULLUP);
   }
@@ -15,9 +17,8 @@ void setup() {
 
 void loop() {
   //PC can clear button statuses
-  if (Serial.available()){
-    Serial.read();
-    clearBtnStatuses();
+  while (Serial.available()){
+    wasPressed[Serial.read()-48] = false;
   }
 
   for(int i = 0; i < playersCount; i++) {
@@ -29,11 +30,9 @@ void loop() {
   }
 }
 
-void clearBtnStatuses(){
-  for (int i=0;i<playersCount;i++){
-    wasPressed[i] = false;
-  }
-}
+
+
+
 
 
 

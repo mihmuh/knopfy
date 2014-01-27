@@ -1,16 +1,14 @@
 package arduino.ui;
 
-import arduino.connect.Connections;
-import arduino.connect.handler.NumHandler;
-import arduino.connect.handler.PlayerHandler;
-import arduino.round.Round;
+import arduino.game.Game;
+import arduino.game.GameNotifier;
 import arduino.words.WordStorage;
 
 import javax.swing.*;
 import javax.swing.border.EtchedBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.util.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainFrame extends JFrame {
@@ -20,22 +18,26 @@ public class MainFrame extends JFrame {
   public static final String STATUS_ID = "status";
   public static final String EMPTY_ID = "empty";
   public static final float BTN_TEXT_SIZE = 50.0f;
-
   private final List<JTextField> myNames = new ArrayList<JTextField>();
-  private Round myRound = null;
   private WordStorage myStorage = new WordStorage();
+  private Game myGame = new Game(new MyGameNotifier());
   private CardLayout myStatusControl;
   private JPanel myStatusPanel;
+  private JPanel myNamesPanel;
 
   public MainFrame() throws HeadlessException {
-    super("Deutsche wörter");
+    super("Knopfy");
 
     Toolkit tk = Toolkit.getDefaultToolkit();
     int xSize = ((int) tk.getScreenSize().getWidth());
     int ySize = ((int) tk.getScreenSize().getHeight());
     setSize(xSize, ySize);
 
-    JComponent names = createNamesControl();
+    myNamesPanel = new JPanel();
+    myNamesPanel.setLayout(new BoxLayout(myNamesPanel, BoxLayout.Y_AXIS));
+    JComponent names = new JPanel(new BorderLayout());
+    names.add(myNamesPanel,BorderLayout.NORTH);
+    names.add(new JPanel(),BorderLayout.SOUTH);
     names.setMinimumSize(new Dimension(300, 600));
     names.setBorder(new EtchedBorder());
 
@@ -47,53 +49,12 @@ public class MainFrame extends JFrame {
   }
 
   public void dispose() {
-    Connections.getInstance().dispose();
+    myGame.dispose();
     super.dispose();
   }
 
-  private JComponent createNamesControl() {
-    final JPanel base = new JPanel();
-    base.setLayout(new BorderLayout());
-
-    final JPanel namesPanel = new JPanel();
-    namesPanel.setLayout(new BoxLayout(namesPanel, BoxLayout.Y_AXIS));
-    JButton setBtn = new JButton(new AbstractAction("Neue Spielers") {
-      public void actionPerformed(ActionEvent e) {
-        Connections.getInstance().startNewSession(new NumHandler() {
-          public void got(final int num) {
-            SwingUtilities.invokeLater(new Runnable() {
-              public void run() {
-                myStatusControl.show(myStatusPanel, BUTTONS_ID);
-                PlayerHandler.ourMapping.put(num, myNames.size());
-
-                JTextField tf = new JTextField("");
-                tf.setFont(tf.getFont().deriveFont(NAMES_FONT_SIZE));
-                myNames.add(tf);
-                namesPanel.add(tf);
-
-                //todo this is a hack
-                namesPanel.doLayout();
-                base.doLayout();
-
-                tf.requestFocus();
-              }
-            });
-          }
-        });
-      }
-    });
-    setBtn.setFont(setBtn.getFont().deriveFont(BTN_TEXT_SIZE));
-    setBtn.setFocusable(false);
-
-    base.add(namesPanel, BorderLayout.NORTH);
-    base.add(setBtn, BorderLayout.SOUTH);
-    base.add(new JPanel(), BorderLayout.CENTER);
-
-    return base;
-  }
-
   private JPanel createRoundControl() {
-    final JLabel word = new JLabel("Ergänzen Spielers, starten");
+    final JLabel word = new JLabel("Drücken die Knopfe");
     word.setHorizontalAlignment(SwingConstants.CENTER);
     word.setFont(word.getFont().deriveFont(WORD_FONT_SIZE));
 
@@ -155,40 +116,8 @@ public class MainFrame extends JFrame {
 
     new Thread("game thread") {
       public void run() {
-        myRound = new Round() {
-          private int myFailedNum = 0;
-
-          protected void acted(final int playerNum) {
-            SwingUtilities.invokeLater(new Runnable() {
-              public void run() {
-                myNames.get(playerNum).setBackground(Color.GREEN);
-                myStatusControl.show(myStatusPanel, BUTTONS_ID);
-              }
-            });
-          }
-
-          protected void failed(final int playerNum) {
-            SwingUtilities.invokeLater(new Runnable() {
-              public void run() {
-                myNames.get(playerNum).setBackground(Color.RED);
-              }
-            });
-            Beeper.playSound("fail.wav");
-
-            myFailedNum++;
-            if (myFailedNum == myNames.size()) {
-              myStatusControl.show(myStatusPanel, BUTTONS_ID);
-            }
-          }
-        };
-
-        Connections.getInstance().startNewSession(new PlayerHandler() {
-          protected void gotPlayer(int playerNum) {
-            myRound.pressed(playerNum);
-          }
-        });
-
-        //todo don't tick when interrupted
+        myGame.allowPlayers(null);
+        myGame.setIsCountdown(true);
         try {
           Thread.sleep(1000);
         } catch (InterruptedException e) {
@@ -215,9 +144,71 @@ public class MainFrame extends JFrame {
           }
         });
         Beeper.playSound("start.wav");
-
-        myRound.go();
+        myGame.setIsCountdown(false);
       }
     }.start();
+  }
+
+  private class MyGameNotifier implements GameNotifier {
+    @Override
+    public void failed(final int playerNum) {
+      SwingUtilities.invokeLater(new Runnable() {
+        public void run() {
+          myNames.get(playerNum).setBackground(Color.RED);
+        }
+      });
+      Beeper.playSound("fail.wav");
+
+      boolean gameEnded = true;
+      for (JTextField player : myNames) {
+        if (player.getBackground() != Color.RED) {
+          gameEnded = false;
+        }
+      }
+      if (gameEnded) {
+        myStatusControl.show(myStatusPanel, BUTTONS_ID);
+      }
+    }
+
+    @Override
+    public void won(final int playerNum, final int place) {
+      SwingUtilities.invokeLater(new Runnable() {
+        public void run() {
+          JTextField p = myNames.get(playerNum);
+          switch (place) {
+            case 0:
+              p.setBackground(Color.GREEN);
+              break;
+            case 1:
+              p.setBackground(Color.YELLOW);
+              break;
+            case 2:
+              p.setBackground(Color.ORANGE);
+              break;
+            default:
+          }
+        }
+      });
+    }
+
+    @Override
+    public void newPlayer(int newPlayerNum) {
+      SwingUtilities.invokeLater(new Runnable() {
+        public void run() {
+          myStatusControl.show(myStatusPanel, BUTTONS_ID);
+
+          JTextField tf = new JTextField("");
+          tf.setFont(tf.getFont().deriveFont(NAMES_FONT_SIZE));
+          myNames.add(tf);
+          myNamesPanel.add(tf);
+
+          //todo this is a hack
+          myNamesPanel.doLayout();
+          myNamesPanel.getParent().doLayout();
+
+          tf.requestFocus();
+        }
+      });
+    }
   }
 }
