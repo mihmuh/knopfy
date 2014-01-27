@@ -24,9 +24,26 @@ public class MainFrame extends JFrame {
   private CardLayout myStatusControl;
   private JPanel myStatusPanel;
   private JPanel myNamesPanel;
+  private JLabel myWordLabel;
 
   public MainFrame() throws HeadlessException {
     super("Knopfy");
+
+//    JMenuBar menu = new JMenuBar();
+//    menu.add(new JMenuItem(new AbstractAction("Neue Spiel") {
+//      @Override
+//      public void actionPerformed(ActionEvent e) {
+//        for (JTextField name:myNames){
+//          name.getParent().remove(name);
+//        }
+//        myWordLabel.setText("Drücken die Knopfe");
+//        myNames.clear();
+//        myStorage = new WordStorage();
+//        myGame.dispose();
+//        myGame = new Game(new MyGameNotifier());
+//      }
+//    }));
+//    setJMenuBar(menu);
 
     Toolkit tk = Toolkit.getDefaultToolkit();
     int xSize = ((int) tk.getScreenSize().getWidth());
@@ -54,9 +71,9 @@ public class MainFrame extends JFrame {
   }
 
   private JPanel createRoundControl() {
-    final JLabel word = new JLabel("Drücken die Knopfe");
-    word.setHorizontalAlignment(SwingConstants.CENTER);
-    word.setFont(word.getFont().deriveFont(WORD_FONT_SIZE));
+    myWordLabel = new JLabel("Drücken die Knopfe");
+    myWordLabel.setHorizontalAlignment(SwingConstants.CENTER);
+    myWordLabel.setFont(myWordLabel.getFont().deriveFont(WORD_FONT_SIZE));
 
     final JLabel statusLabel = new JLabel(" ");
     statusLabel.setHorizontalAlignment(SwingConstants.CENTER);
@@ -72,7 +89,7 @@ public class MainFrame extends JFrame {
 
     JButton nextRoundBtn = new JButton(new AbstractAction("Nächste Runde") {
       public void actionPerformed(ActionEvent e) {
-        word.setText(myStorage.getNextWord());
+        myWordLabel.setText(myStorage.getNextWord());
         continueBtn.setEnabled(true);
         resumeGame(statusLabel);
       }
@@ -97,7 +114,7 @@ public class MainFrame extends JFrame {
 
     JPanel base = new JPanel();
     base.setLayout(new BorderLayout());
-    base.add(word, BorderLayout.CENTER);
+    base.add(myWordLabel, BorderLayout.CENTER);
     base.add(myStatusPanel, BorderLayout.SOUTH);
     return base;
   }
