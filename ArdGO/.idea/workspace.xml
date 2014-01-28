@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec66dee-135b-4520-8010-29eeabe66b0d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/knopfy.mf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/knopfy.xml" afterPath="$PROJECT_DIR$/build/knopfy.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -13,7 +12,7 @@
     <file path="/MainFrame.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390848682470" ignored="false" />
     <file path="/PortHandler.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389549034397" ignored="false" />
     <file path="$USER_HOME$/work/mps/editor/actions-runtime/source/jetbrains/mps/smodel/action/AbstractChildNodeSetter.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389282046574" ignored="false" />
-    <file path="/Dummy.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390870576787" ignored="false" />
+    <file path="/Dummy.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390871226201" ignored="false" />
     <file path="/todo.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389546176084" ignored="false" />
     <file path="/protocol.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389125054315" ignored="false" />
     <file path="/a.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390870497763" ignored="false" />
@@ -82,9 +81,9 @@
     <file path="/GameNotifier.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390846252810" ignored="false" />
     <file path="$USER_HOME$/work/mps/build/mpsExe.xml" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390868483244" ignored="false" />
     <file path="$USER_HOME$/work/mps/workbench/mps-workbench/source/jetbrains/mps/build/GenerateNSI.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390868588191" ignored="false" />
-    <file path="/knopfy.xml" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390870745607" ignored="false" />
+    <file path="/knopfy.xml" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390871299763" ignored="false" />
     <file path="/knopfy.bat" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390870078822" ignored="false" />
-    <file path="/knopfy.mf" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390870714749" ignored="false" />
+    <file path="/knopfy.mf" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390871033106" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +229,7 @@
       <file leaf-file-name="knopfy.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build/knopfy.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="83" selection-start="594" selection-end="594" vertical-scroll-proportion="0.44210526">
+            <state line="10" column="38" selection-start="434" selection-end="434" vertical-scroll-proportion="0.31578946">
               <folding />
             </state>
           </provider>
@@ -239,7 +238,16 @@
       <file leaf-file-name="knopfy.mf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/knopfy.mf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="23" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
+            <state line="1" column="8" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArduinoMain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arduino/ArduinoMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -273,18 +281,6 @@
                 <element signature="e#464#473#0" expanded="true" />
                 <element signature="e#517#634#0" expanded="true" />
                 <element signature="e#629#630#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IdentityHashMap.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/work/jdk6u24_src_julia_ubunturepo.zip!/jdk6u24_src_julia_ubunturepo/java/util/IdentityHashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="13" selection-start="6034" selection-end="6034" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#45306#0" expanded="false" />
-                <element signature="e#42478#42508#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -418,90 +414,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arduino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arduino_read" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArdGO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arduino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="words" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arduino_read" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArdGO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arduino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arduino_read" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArdGO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arduino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arduino_read" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArdGO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -514,7 +426,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -763,7 +675,19 @@
       <created>1390870579034</created>
       <updated>1390870579034</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="manifest file for executable jar">
+      <created>1390870832142</created>
+      <updated>1390870832142</updated>
+    </task>
+    <task id="LOCAL-00018" summary="manifest file for executable jar">
+      <created>1390871049016</created>
+      <updated>1390871049016</updated>
+    </task>
+    <task id="LOCAL-00019" summary="correct build file">
+      <created>1390871227513</created>
+      <updated>1390871227513</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -845,7 +769,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="bat and sh files created, first version of build file" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct build file" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -874,6 +798,8 @@
     <MESSAGE value="started &quot;new game&quot; button in menu" />
     <MESSAGE value="rxtx for win added" />
     <MESSAGE value="bat and sh files created, first version of build file" />
+    <MESSAGE value="manifest file for executable jar" />
+    <MESSAGE value="correct build file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -909,13 +835,6 @@
     <entry file="jar://$USER_HOME$/work/jdk6u24_src_julia_ubunturepo.zip!/jdk6u24_src_julia_ubunturepo/java/net/URLClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="207" column="76" selection-start="7871" selection-end="7871" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arduino/ArduinoMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/work/jdk6u24_src_julia_ubunturepo.zip!/jdk6u24_src_julia_ubunturepo/java/lang/Thread.java">
@@ -1000,6 +919,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/arduino/ArduinoMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/knopfy.mf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="8" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build/knopfy.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
@@ -1007,16 +940,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/knopfy.mf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="23" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/knopfy.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="83" selection-start="594" selection-end="594" vertical-scroll-proportion="0.44210526">
+        <state line="10" column="38" selection-start="434" selection-end="434" vertical-scroll-proportion="0.31578946">
           <folding />
         </state>
       </provider>

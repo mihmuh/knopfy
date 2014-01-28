@@ -8,14 +8,16 @@
         <copy todir="${build.layout}">
             <fileset file="${build.dir}/knopfy.sh"/>
             <fileset file="${build.dir}/knopfy.bat"/>
+            <fileset file="./words.txt"/>
         </copy>
+        <chmod file="${build.layout}/knopfy.sh" perm="755"/>
         <mkdir dir="${build.layout}/rxtx"/>
         <copy todir="${build.layout}/rxtx">
             <fileset dir="./rxtx"/>
         </copy>
 
         <jar destfile="${build.layout}/knopfy.jar" manifest="${build.dir}/knopfy.mf">
-            <fileset dir="./classes"/>
+            <fileset dir="./classes/production/ArdGO"/>
         </jar>
 
     </target>
