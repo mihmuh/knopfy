@@ -3,6 +3,8 @@
     <property name="build.layout" location="${build.dir}/artifacts/knopfy"/>
 
     <target name="build">
+        <deltree dir="${build.layout}"/>
+
         <copy todir="${build.layout}">
             <fileset file="${build.dir}/knopfy.sh"/>
             <fileset file="${build.dir}/knopfy.bat"/>
@@ -12,7 +14,7 @@
             <fileset dir="./rxtx"/>
         </copy>
 
-        <jar destfile="${build.layout}/knopfy.jar">
+        <jar destfile="${build.layout}/knopfy.jar" manifest="${build.dir}/knopfy.mf">
             <fileset dir="./classes"/>
         </jar>
 
