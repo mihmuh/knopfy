@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec66dee-135b-4520-8010-29eeabe66b0d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/knopfy.xml" afterPath="$PROJECT_DIR$/build/knopfy.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/knopfy.mf" afterPath="$PROJECT_DIR$/build/knopfy.mf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/knopfy.sh" afterPath="$PROJECT_DIR$/build/knopfy.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="arduino_read.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/ArduinoTest.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1388265009323" ignored="false" />
-    <file path="/fragment.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390869909560" ignored="false" />
+    <file path="/fragment.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390872297543" ignored="false" />
     <file path="/MainFrame.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390848682470" ignored="false" />
     <file path="/PortHandler.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389549034397" ignored="false" />
     <file path="$USER_HOME$/work/mps/editor/actions-runtime/source/jetbrains/mps/smodel/action/AbstractChildNodeSetter.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389282046574" ignored="false" />
-    <file path="/Dummy.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390871226201" ignored="false" />
+    <file path="/Dummy.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390871913655" ignored="false" />
     <file path="/todo.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389546176084" ignored="false" />
     <file path="/protocol.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389125054315" ignored="false" />
     <file path="/a.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390870497763" ignored="false" />
@@ -81,9 +82,9 @@
     <file path="/GameNotifier.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390846252810" ignored="false" />
     <file path="$USER_HOME$/work/mps/build/mpsExe.xml" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390868483244" ignored="false" />
     <file path="$USER_HOME$/work/mps/workbench/mps-workbench/source/jetbrains/mps/build/GenerateNSI.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390868588191" ignored="false" />
-    <file path="/knopfy.xml" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390871299763" ignored="false" />
+    <file path="/knopfy.xml" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390871909233" ignored="false" />
     <file path="/knopfy.bat" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390870078822" ignored="false" />
-    <file path="/knopfy.mf" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390871033106" ignored="false" />
+    <file path="/knopfy.mf" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390872906149" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,10 +227,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="knopfy.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="knopfy.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/knopfy.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="38" selection-start="434" selection-end="434" vertical-scroll-proportion="0.31578946">
+            <state line="23" column="51" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -238,7 +239,7 @@
       <file leaf-file-name="knopfy.mf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/knopfy.mf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="8" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+            <state line="2" column="26" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -262,7 +263,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="knopfy.bat" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="knopfy.bat" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build/knopfy.bat">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="50" vertical-scroll-proportion="0.0">
@@ -345,8 +346,8 @@
         <option value="$PROJECT_DIR$/src/arduino/ui/MainFrame.java" />
         <option value="$PROJECT_DIR$/build/knopfy.bat" />
         <option value="$PROJECT_DIR$/build/knopfy.sh" />
-        <option value="$PROJECT_DIR$/build/knopfy.mf" />
         <option value="$PROJECT_DIR$/build/knopfy.xml" />
+        <option value="$PROJECT_DIR$/build/knopfy.mf" />
       </list>
     </option>
   </component>
@@ -401,6 +402,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ArdGO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arduino_read" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArdGO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arduino" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -548,7 +567,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ArduinoMain" type="Application" factoryName="Application">
+    <configuration default="false" name="ArduinoMain" type="Application" factoryName="Application" show_console_on_std_out="true" show_console_on_std_err="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="arduino.ArduinoMain" />
       <option name="VM_PARAMETERS" value="-Djava.library.path=&quot;$PROJECT_DIR$/rxtx/&quot;" />
@@ -687,7 +706,15 @@
       <created>1390871227513</created>
       <updated>1390871227513</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="correct build file">
+      <created>1390871310815</created>
+      <updated>1390871310815</updated>
+    </task>
+    <task id="LOCAL-00021" summary="correct build file">
+      <created>1390871915829</created>
+      <updated>1390871915829</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -713,7 +740,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.65093166" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6705744" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -905,13 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/knopfy.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="50" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/arduino/words/WordStorage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="6" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
@@ -926,9 +946,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/knopfy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="51" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build/knopfy.mf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="8" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+        <state line="2" column="26" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -940,9 +967,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/knopfy.xml">
+    <entry file="file://$PROJECT_DIR$/build/knopfy.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="38" selection-start="434" selection-end="434" vertical-scroll-proportion="0.31578946">
+        <state line="0" column="0" selection-start="0" selection-end="50" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
