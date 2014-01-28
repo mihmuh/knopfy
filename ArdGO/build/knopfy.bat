@@ -1,1 +1,1 @@
-java -Djava.library.path="./rxtx/" -jar knopfy.jar COMPortHere
+.\jre\jre\bin\java -Djava.library.path="./rxtx/" -jar knopfy.jar COM3
