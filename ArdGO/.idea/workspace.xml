@@ -2,43 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec66dee-135b-4520-8010-29eeabe66b0d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arduino/ui/fail.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arduino/ui/start.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arduino/ui/tick.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arduino/ui/AddPlayersBtn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arduino/ui/Beeper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arduino/connect/Connections.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arduino/ui/MainFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arduino/connect/handler/NumHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arduino/connect/handler/PlayerHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arduino/round/Round.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arduino/MainFrame.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/arduino/PortHandler.java" afterPath="$PROJECT_DIR$/src/arduino/connect/PortConnection.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/arduino/WordStorage.java" afterPath="$PROJECT_DIR$/src/arduino/words/WordStorage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/arduino/ArduinoMain.java" afterPath="$PROJECT_DIR$/src/arduino/ArduinoMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo.txt" afterPath="$PROJECT_DIR$/todo.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/knopfy.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/knopfy.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/knopfy.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="arduino_read.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/ArduinoTest.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1388265009323" ignored="false" />
-    <file path="/fragment.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389542646390" ignored="false" />
-    <file path="/MainFrame.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389551004792" ignored="false" />
+    <file path="/fragment.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390869909560" ignored="false" />
+    <file path="/MainFrame.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390848682470" ignored="false" />
     <file path="/PortHandler.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389549034397" ignored="false" />
     <file path="$USER_HOME$/work/mps/editor/actions-runtime/source/jetbrains/mps/smodel/action/AbstractChildNodeSetter.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389282046574" ignored="false" />
-    <file path="/Dummy.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389548105717" ignored="false" />
+    <file path="/Dummy.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390869870892" ignored="false" />
     <file path="/todo.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389546176084" ignored="false" />
     <file path="/protocol.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389125054315" ignored="false" />
-    <file path="/a.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389540874404" ignored="false" />
-    <file path="/WordStorage.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389550454422" ignored="false" />
-    <file path="/a.dummy" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389546350896" ignored="false" />
+    <file path="/a.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390870497763" ignored="false" />
+    <file path="/WordStorage.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389658683924" ignored="false" />
+    <file path="/a.dummy" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390846857556" ignored="false" />
     <file path="/SetNamesBtn.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389543520762" ignored="false" />
-    <file path="/PlayerHandler.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389549142326" ignored="false" />
+    <file path="/PlayerHandler.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389551377986" ignored="false" />
     <file path="/ConnectionManager.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389545519872" ignored="false" />
-    <file path="/Round.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389546094673" ignored="false" />
+    <file path="/Round.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390844030830" ignored="false" />
     <file path="/Connections.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389549845740" ignored="false" />
     <file path="/Beeper.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389547442523" ignored="false" />
     <file path="/NumHandler.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389549117715" ignored="false" />
+    <file path="$USER_HOME$/work/mps/editor/editor-runtime/source/jetbrains/mps/nodeEditor/EditorContext.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253001596" ignored="false" />
+    <file path="$USER_HOME$/work/mps/workbench/mps-workbench/source_gen/jetbrains/mps/ide/actions/EditGivenNode_Action.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/languages/languageDesign/editor/source_gen/jetbrains/mps/lang/editor/behavior/EditableStyleClassItem_Behavior.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/languages/languageDesign/generator/languages/templateLanguage/source_gen/jetbrains/mps/lang/generator/helper/EditingUtil.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/languages/languageDesign/plugin/source_gen/jetbrains/mps/lang/plugin/editor/EditableModel_Editor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/languages/languageDesign/editor/source_gen/jetbrains/mps/lang/editor/typesystem/typeof_ConceptFunctionParameter_editorContext_InferenceRule.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/workbench/mps-workbench/source_gen/jetbrains/mps/workbench/dialogs/project/components/parts/descriptors/EditableStringDescriptor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/languages/languageDesign/plugin/source_gen/jetbrains/mps/lang/plugin/constraints/EditableModel_Constraints.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/editor/editor-runtime/source_gen/jetbrains/mps/editor/runtime/EditorCell_Empty.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/languages/languageDesign/editor/source_gen/jetbrains/mps/lang/editor/editor/ConceptEditorContextHints_hintKeymap.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/languages/languageDesign/editor/source_gen/jetbrains/mps/lang/editor/behavior/ConceptEditorContextHints_BehaviorDescriptor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/languages/languageDesign/editor/source_gen/jetbrains/mps/lang/editor/editor/EditorComponent_DefaultContextHintLabel.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/workbench/mps-ui/source_gen/jetbrains/mps/ide/ui/dialogs/properties/EditOperandDialog.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/languages/languageDesign/editor/source_gen/jetbrains/mps/lang/editor/editor/SelectInEditorOperation_editorContextActions.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/languages/languageDesign/editor/source_gen/jetbrains/mps/lang/editor/behavior/EditableStyleClassItem_BehaviorDescriptor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/languages/languageDesign/editor/source_gen/jetbrains/mps/lang/editor/editor/ConceptEditor_DefaultContextHintLabel.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/languages/languageDesign/typesystem/source_gen/jetbrains/mps/lang/typesystem/behavior/ConceptFunctionParameter_EditorContext_BehaviorDescriptor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/workbench/mps-workbench/source_gen/jetbrains/mps/ide/actions/EditorActionsAddition_ActionGroup.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/workbench/mps-workbench/source_gen/jetbrains/mps/workbench/dialogs/project/components/parts/renderers/ProjectLevelRenderer.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/languages/languageDesign/editor/source_gen/jetbrains/mps/lang/editor/scripts/EditorContext_MigrationScript.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/languages/languageDesign/sharedConcepts/source_gen/jetbrains/mps/lang/sharedConcepts/behavior/ConceptFunctionParameter_editorContext_BehaviorDescriptor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646441" ignored="false" />
+    <file path="$USER_HOME$/work/mps/workbench/mps-workbench/source_gen/jetbrains/mps/ide/actions/Edit_ActionGroup.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646442" ignored="false" />
+    <file path="$USER_HOME$/work/mps/languages/languageDesign/editor/source_gen/jetbrains/mps/lang/editor/editor/ConceptEditorContextHints_Editor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646442" ignored="false" />
+    <file path="$USER_HOME$/work/mps/languages/languageDesign/editor/source_gen/jetbrains/mps/lang/editor/behavior/ConceptFunctionParameter_editorContext_BehaviorDescriptor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646442" ignored="false" />
+    <file path="$USER_HOME$/work/mps/languages/languageDesign/plugin/source_gen/jetbrains/mps/lang/plugin/behavior/EditableModel_BehaviorDescriptor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646442" ignored="false" />
+    <file path="$USER_HOME$/work/mps/workbench/mps-editor/source_gen/jetbrains/mps/ide/editor/actions/EditorActionUtils.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253646442" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/editor/SConceptAnnotation_Editor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/behavior/SAbstractConcept_Behavior.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/behavior/SCardinalityContainer_Behavior.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/editor/SAbstractConcept_Editor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/behavior/SAbstractConcept_BehaviorDescriptor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/behavior/SAbstractLink_Behavior.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/editor/SConcept_Editor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/behavior/SChildLink_Behavior.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/behavior/SCardinality_BehaviorDescriptor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/behavior/SConceptAnnotation_BehaviorDescriptor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/behavior/SCardinalityContainer_BehaviorDescriptor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/behavior/SAbstractLink_BehaviorDescriptor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/behavior/SCardinality_Behavior.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/editor/SChildLink_Editor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/editor/SAbstractLink_deleteCardinality.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/behavior/SChildLink_BehaviorDescriptor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/editor/SConcept_deleteAbstract.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/editor/SConcept_deleteCanBeRoot.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/editor/SConcept_addImplements.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/behavior/SConcept_BehaviorDescriptor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/editor/SAbstractLink_cardinality.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/editor/SConcept_deleteFinal.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/behavior/SConcept_Behavior.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/editor/SCardinality_Editor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
+    <file path="$USER_HOME$/work/mps/core/kernel/source/jetbrains/mps/smodel/SModelUtil_new.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253753642" ignored="false" />
+    <file path="/PortConnection.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390844084703" ignored="false" />
+    <file path="/Game.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390848796395" ignored="false" />
+    <file path="/GameNotifier.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390846252810" ignored="false" />
+    <file path="$USER_HOME$/work/mps/build/mpsExe.xml" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390868483244" ignored="false" />
+    <file path="$USER_HOME$/work/mps/workbench/mps-workbench/source/jetbrains/mps/build/GenerateNSI.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390868588191" ignored="false" />
+    <file path="/knopfy.xml" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390870516403" ignored="false" />
+    <file path="/knopfy.bat" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390870078822" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +101,25 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <exception_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint class_name="java.lang.NullPointerException" package_name="java.lang">
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </exception_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -90,10 +156,9 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
-    <exception_breakpoints>
-      <breakpoint class_name="java.lang.NullPointerException" package_name="java.lang">
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/arduino/ui/MainFrame.java" line="193" class="arduino.ui.MainFrame.MyGameNotifier$2" package="arduino.ui">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -108,7 +173,37 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-    </exception_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/arduino/game/Game.java" line="19" class="arduino.game.Game$1" package="arduino.game">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/arduino/game/PortConnection.java" line="74" class="arduino.game.PortConnection" package="arduino.game">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -118,92 +213,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainFrame.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainFrame.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arduino/ui/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="23" selection-start="1590" selection-end="1590" vertical-scroll-proportion="0.79915434">
+            <state line="26" column="26" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1617#2155#0" expanded="true" />
-                <element signature="e#1718#2131#0" expanded="true" />
-                <element signature="e#2116#2117#0" expanded="true" />
-                <element signature="e#2144#2145#0" expanded="true" />
-                <element signature="e#3800#4044#0" expanded="true" />
-                <element signature="e#4029#4030#0" expanded="true" />
-                <element signature="e#4251#4396#0" expanded="true" />
-                <element signature="e#4381#4382#0" expanded="true" />
-                <element signature="e#4515#4650#0" expanded="true" />
-                <element signature="e#4639#4640#0" expanded="true" />
-                <element signature="e#4801#4918#0" expanded="true" />
-                <element signature="e#4905#4906#0" expanded="true" />
-                <element signature="e#5093#5194#0" expanded="true" />
-                <element signature="e#5183#5184#0" expanded="true" />
+                <element signature="e#5769#5890#0" expanded="true" />
+                <element signature="e#5881#5882#0" expanded="true" />
+                <element signature="e#6304#6732#0" expanded="true" />
+                <element signature="e#6723#6724#0" expanded="true" />
+                <element signature="e#6835#7271#0" expanded="true" />
+                <element signature="e#7262#7263#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="URLClassLoader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/work/jdk6u24_src_julia_ubunturepo.zip!/jdk6u24_src_julia_ubunturepo/java/net/URLClassLoader.java">
+      <file leaf-file-name="knopfy.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/knopfy.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="207" column="76" selection-start="7871" selection-end="7871" vertical-scroll-proportion="0.0">
+            <state line="16" column="36" selection-start="616" selection-end="616" vertical-scroll-proportion="0.5298013">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Connections.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arduino/connect/Connections.java">
+      <file leaf-file-name="knopfy.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/knopfy.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="17" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#566#692#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arduino/connect/handler/PlayerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#202#220#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NumHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arduino/connect/handler/NumHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+            <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddPlayersBtn.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arduino/ui/AddPlayersBtn.java">
+      <file leaf-file-name="knopfy.bat" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/knopfy.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="24" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="50" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arduino/game/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="3" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#356#374#0" expanded="true" />
+                <element signature="e#464#473#0" expanded="true" />
+                <element signature="e#517#634#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Beeper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arduino/ui/Beeper.java">
+      <file leaf-file-name="IdentityHashMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/work/jdk6u24_src_julia_ubunturepo.zip!/jdk6u24_src_julia_ubunturepo/java/util/IdentityHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="9" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
+            <state line="115" column="13" selection-start="6034" selection-end="6034" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#228#728#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#0#45306#0" expanded="false" />
+                <element signature="e#42478#42508#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -212,19 +286,37 @@
       <file leaf-file-name="WordStorage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arduino/words/WordStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="127" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+            <state line="22" column="6" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Attributes.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/work/jdk6u24_src_julia_ubunturepo.zip!/jdk6u24_src_julia_ubunturepo/java/util/jar/Attributes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="13" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#174#182#0" expanded="true" />
+                <element signature="e#0#22249#0" expanded="false" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PortConnection.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arduino/connect/PortConnection.java">
+      <file leaf-file-name="GameNotifier.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arduino/game/GameNotifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="29" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
+            <state line="5" column="7" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PortConnection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arduino/game/PortConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="0" selection-start="2089" selection-end="2089" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -248,22 +340,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/arduino/MainFrame.java" />
-        <option value="$PROJECT_DIR$/src/arduino/SetNamesBtn.java" />
-        <option value="$PROJECT_DIR$/src/arduino/ui/SetNamesBtn.java" />
-        <option value="$PROJECT_DIR$/src/arduino/connect/PlayerHandler.java" />
-        <option value="$PROJECT_DIR$/src/arduino/connect/ConnectionManager.java" />
-        <option value="$PROJECT_DIR$/src/arduino/round/Round.java" />
-        <option value="$PROJECT_DIR$/todo.txt" />
-        <option value="$PROJECT_DIR$/src/arduino/ui/Beeper.java" />
-        <option value="$PROJECT_DIR$/src/arduino/connect/PortHandler.java" />
-        <option value="$PROJECT_DIR$/src/arduino/connect/PortConnection.java" />
-        <option value="$PROJECT_DIR$/src/arduino/connect/handler/NumHandler.java" />
-        <option value="$PROJECT_DIR$/src/arduino/connect/handler/PlayerHandler.java" />
-        <option value="$PROJECT_DIR$/src/arduino/connect/Connections.java" />
-        <option value="$PROJECT_DIR$/src/arduino/words/WordStorage.java" />
         <option value="$PROJECT_DIR$/src/arduino/ui/AddPlayersBtn.java" />
+        <option value="$PROJECT_DIR$/src/arduino/connect/Connections.java" />
+        <option value="$PROJECT_DIR$/src/arduino/round/Round.java" />
+        <option value="$PROJECT_DIR$/src/arduino/round/ButtonPressDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/arduino/connect/PortConnection.java" />
+        <option value="$PROJECT_DIR$/src/arduino/connect/handler/ButtonPressDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/arduino/connect/handler/PlayerHandler.java" />
+        <option value="$PROJECT_DIR$/src/arduino/connect/GameNotifier.java" />
+        <option value="$PROJECT_DIR$/src/arduino/connect/Game.java" />
+        <option value="$PROJECT_DIR$/src/arduino/game/PortConnection.java" />
+        <option value="$PROJECT_DIR$/src/arduino/game/GameNotifier.java" />
+        <option value="$PROJECT_DIR$/src/arduino/game/Game.java" />
         <option value="$PROJECT_DIR$/src/arduino/ui/MainFrame.java" />
+        <option value="$PROJECT_DIR$/build/knopfy.bat" />
+        <option value="$PROJECT_DIR$/build/knopfy.sh" />
+        <option value="$PROJECT_DIR$/build/knopfy.xml" />
       </list>
     </option>
   </component>
@@ -303,7 +395,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -402,33 +493,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="connect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arduino_read" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArdGO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arduino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="connect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="handler" />
+              <option name="myItemId" value="game" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -446,30 +511,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arduino_read" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArdGO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rxtx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RXTXcomm.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arduino_read" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArdGO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="OverrideImplement.combined" value="true" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/rxtx/RXTXcomm.jar!/" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build/knopfy.xml" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="arduino_read" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.lastSelected" value="project.propCompiler" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
@@ -490,6 +595,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -517,19 +635,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -647,7 +752,51 @@
       <created>1389548106723</created>
       <updated>1389548106723</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=" PC program v2.0 alpha">
+      <created>1389551033455</created>
+      <updated>1389551033455</updated>
+    </task>
+    <task id="LOCAL-00006" summary=" PC program v2.0 alpha">
+      <created>1389551390130</created>
+      <updated>1389551390130</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix NPE when pressing not registered button">
+      <created>1389551409643</created>
+      <updated>1389551409643</updated>
+    </task>
+    <task id="LOCAL-00008" summary="words loading">
+      <created>1389662524614</created>
+      <updated>1389662524614</updated>
+    </task>
+    <task id="LOCAL-00009" summary="better UI">
+      <created>1389662530591</created>
+      <updated>1389662530591</updated>
+    </task>
+    <task id="LOCAL-00010" summary="better UI (add player, focusing)">
+      <created>1389663094277</created>
+      <updated>1389663094277</updated>
+    </task>
+    <task id="LOCAL-00011" summary="better UI (focusing)">
+      <created>1389663230915</created>
+      <updated>1389663230915</updated>
+    </task>
+    <task id="LOCAL-00012" summary="players button size, german language">
+      <created>1390252770191</created>
+      <updated>1390252770191</updated>
+    </task>
+    <task id="LOCAL-00013" summary="better gameplay: no &quot;new player&quot; button, can clear players separately, main window name">
+      <created>1390848360962</created>
+      <updated>1390848360962</updated>
+    </task>
+    <task id="LOCAL-00014" summary="started &quot;new game&quot; button in menu">
+      <created>1390848837729</created>
+      <updated>1390848837729</updated>
+    </task>
+    <task id="LOCAL-00015" summary="rxtx for win added">
+      <created>1390869873118</created>
+      <updated>1390869873118</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -655,28 +804,28 @@
     <editor active="false" />
     <layout>
       <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32991013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3490683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.65093166" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3992298" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3985932" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67008984" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.65093166" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6705744" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -729,7 +878,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix hardware prg" />
+    <option name="LAST_COMMIT_MESSAGE" value="rxtx for win added" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -747,6 +896,16 @@
     <MESSAGE value="remove protocol, rewrite arduino module, reformat (indent)" />
     <MESSAGE value="words storage stub" />
     <MESSAGE value="fix hardware prg" />
+    <MESSAGE value=" PC program v2.0 alpha" />
+    <MESSAGE value="fix NPE when pressing not registered button" />
+    <MESSAGE value="words loading" />
+    <MESSAGE value="better UI" />
+    <MESSAGE value="better UI (add player, focusing)" />
+    <MESSAGE value="better UI (focusing)" />
+    <MESSAGE value="players button size, german language" />
+    <MESSAGE value="better gameplay: no &quot;new player&quot; button, can clear players separately, main window name" />
+    <MESSAGE value="started &quot;new game&quot; button in menu" />
+    <MESSAGE value="rxtx for win added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -758,55 +917,19 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/build/knopfy.xml">
+      <expanded value="true" />
+    </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/work/jdk6u24_src_julia_ubunturepo.zip!/jdk6u24_src_julia_ubunturepo/java/awt/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="971" column="16" selection-start="35099" selection-end="35099" vertical-scroll-proportion="0.019946808">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArdGO.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arduino/ArduinoMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/work/jdk6u24_src_julia_ubunturepo.zip!/jdk6u24_src_julia_ubunturepo/javax/swing/JSplitPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="28" selection-start="3415" selection-end="3415" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/work/jdk6u24_src_julia_ubunturepo.zip!/jdk6u24_src_julia_ubunturepo/javax/swing/AbstractButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="336" column="13" selection-start="12175" selection-end="12175" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="336" column="13" selection-start="12175" selection-end="12175" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todo.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arduino/round/Round.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="44" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="9" column="16" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arduino/ui/Beeper.java">
@@ -820,86 +943,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arduino/connect/PortConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arduino/connect/handler/PlayerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#202#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/work/jdk6u24_src_julia_ubunturepo.zip!/jdk6u24_src_julia_ubunturepo/java/net/URLClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="207" column="76" selection-start="7871" selection-end="7871" vertical-scroll-proportion="0.0">
+        <state line="207" column="76" selection-start="7871" selection-end="7871" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arduino/ArduinoMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arduino/words/WordStorage.java">
+    <entry file="jar://$USER_HOME$/work/jdk6u24_src_julia_ubunturepo.zip!/jdk6u24_src_julia_ubunturepo/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="127" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#174#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arduino/connect/Connections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="17" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#566#692#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arduino/connect/handler/NumHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+        <state line="882" column="16" selection-start="34576" selection-end="34576" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arduino/ui/AddPlayersBtn.java">
+    <entry file="jar://$USER_HOME$/work/jdk6u24_src_julia_ubunturepo.zip!/jdk6u24_src_julia_ubunturepo/java/util/jar/Attributes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
+        <state line="36" column="13" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#22249#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/work/jdk6u24_src_julia_ubunturepo.zip!/jdk6u24_src_julia_ubunturepo/java/util/IdentityHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="13" selection-start="6034" selection-end="6034" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#45306#0" expanded="false" />
+            <element signature="e#42478#42508#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arduino/game/PortConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="0" selection-start="2089" selection-end="2089" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arduino/game/GameNotifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="7" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arduino/game/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="3" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#356#374#0" expanded="true" />
+            <element signature="e#464#473#0" expanded="true" />
+            <element signature="e#517#634#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arduino/ui/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="23" selection-start="1590" selection-end="1590" vertical-scroll-proportion="0.79915434">
+        <state line="26" column="26" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1617#2155#0" expanded="true" />
-            <element signature="e#1718#2131#0" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
-            <element signature="e#2144#2145#0" expanded="true" />
-            <element signature="e#3800#4044#0" expanded="true" />
-            <element signature="e#4029#4030#0" expanded="true" />
-            <element signature="e#4251#4396#0" expanded="true" />
-            <element signature="e#4381#4382#0" expanded="true" />
-            <element signature="e#4515#4650#0" expanded="true" />
-            <element signature="e#4639#4640#0" expanded="true" />
-            <element signature="e#4801#4918#0" expanded="true" />
-            <element signature="e#4905#4906#0" expanded="true" />
-            <element signature="e#5093#5194#0" expanded="true" />
-            <element signature="e#5183#5184#0" expanded="true" />
+            <element signature="e#5769#5890#0" expanded="true" />
+            <element signature="e#5881#5882#0" expanded="true" />
+            <element signature="e#6304#6732#0" expanded="true" />
+            <element signature="e#6723#6724#0" expanded="true" />
+            <element signature="e#6835#7271#0" expanded="true" />
+            <element signature="e#7262#7263#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/knopfy.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="50" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arduino/words/WordStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="6" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/knopfy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/knopfy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="36" selection-start="616" selection-end="616" vertical-scroll-proportion="0.5298013">
+          <folding />
         </state>
       </provider>
     </entry>

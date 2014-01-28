@@ -1,0 +1,20 @@
+<project name="knopfy" default="build" basedir="../">
+    <property name="build.dir" location="build"/>
+    <property name="build.layout" location="${build.dir}/artifacts/knopfy"/>
+
+    <target name="build">
+        <copy todir="${build.layout}">
+            <fileset file="${build.dir}/knopfy.sh"/>
+            <fileset file="${build.dir}/knopfy.bat"/>
+        </copy>
+        <mkdir dir="${build.layout}/rxtx"/>
+        <copy todir="${build.layout}/rxtx">
+            <fileset dir="./rxtx"/>
+        </copy>
+
+        <jar destfile="${build.layout}/knopfy.jar">
+            <fileset dir="./classes"/>
+        </jar>
+
+    </target>
+</project>
