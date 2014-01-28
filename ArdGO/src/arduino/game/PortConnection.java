@@ -12,35 +12,33 @@ import java.util.Enumeration;
 
 abstract class PortConnection implements SerialPortEventListener {
   public static final int ORD0 = 48 /*ord('0')*/;
+  private static final int DATA_RATE = 9600;
   SerialPort serialPort;
-
-  private static final String PORT_NAMES[] = {
-          "/dev/tty.usbmodem1411", // Mac OS X,uno
-          "/dev/tty.usbmodem1421", // Mac OS X ,uno
-          "/dev/tty.usbserial-A6028DY4", // Mac OS X,nano
-  };
-
   private InputStream input;
   private OutputStream output;
-  private static final int DATA_RATE = 9600;
 
-  public void init() {
+  public void init(String portName) {
     CommPortIdentifier portId = null;
     Enumeration portEnum = CommPortIdentifier.getPortIdentifiers();
 
     // iterate through, looking for the port
     while (portEnum.hasMoreElements()) {
       CommPortIdentifier currPortId = (CommPortIdentifier) portEnum.nextElement();
-      for (String portName : PORT_NAMES) {
-        if (currPortId.getName().equals(portName)) {
-          portId = currPortId;
-          break;
-        }
+      if (currPortId.getName().equals(portName)) {
+        portId = currPortId;
+        break;
       }
     }
 
     if (portId == null) {
-      System.out.println("Could not find COM port.");
+      System.out.print("Could not find COM port.\nAvailable COM ports:\n");
+      portEnum = CommPortIdentifier.getPortIdentifiers();
+
+      // iterate through, looking for the port
+      while (portEnum.hasMoreElements()) {
+        CommPortIdentifier currPortId = (CommPortIdentifier) portEnum.nextElement();
+        System.out.println(currPortId.getName());
+      }
       return;
     }
 
@@ -81,9 +79,9 @@ abstract class PortConnection implements SerialPortEventListener {
     }
   }
 
-  public void clear(int btnNum){
+  public void clear(int btnNum) {
     try {
-      output.write(btnNum+ORD0);
+      output.write(btnNum + ORD0);
     } catch (IOException e) {
       e.printStackTrace();
     }

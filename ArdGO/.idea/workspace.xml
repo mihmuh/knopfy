@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec66dee-135b-4520-8010-29eeabe66b0d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/knopfy.mf" afterPath="$PROJECT_DIR$/build/knopfy.mf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/arduino/ArduinoMain.java" afterPath="$PROJECT_DIR$/src/arduino/ArduinoMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/arduino/game/Game.java" afterPath="$PROJECT_DIR$/src/arduino/game/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/arduino/ui/MainFrame.java" afterPath="$PROJECT_DIR$/src/arduino/ui/MainFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/arduino/game/PortConnection.java" afterPath="$PROJECT_DIR$/src/arduino/game/PortConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/knopfy.bat" afterPath="$PROJECT_DIR$/build/knopfy.bat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/knopfy.sh" afterPath="$PROJECT_DIR$/build/knopfy.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="arduino_read.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/ArduinoTest.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1388265009323" ignored="false" />
-    <file path="/fragment.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390872297543" ignored="false" />
-    <file path="/MainFrame.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390848682470" ignored="false" />
+    <file path="/fragment.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390913811295" ignored="false" />
+    <file path="/MainFrame.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390913559247" ignored="false" />
     <file path="/PortHandler.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389549034397" ignored="false" />
     <file path="$USER_HOME$/work/mps/editor/actions-runtime/source/jetbrains/mps/smodel/action/AbstractChildNodeSetter.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389282046574" ignored="false" />
-    <file path="/Dummy.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390871913655" ignored="false" />
+    <file path="/Dummy.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390877908515" ignored="false" />
     <file path="/todo.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389546176084" ignored="false" />
     <file path="/protocol.txt" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1389125054315" ignored="false" />
     <file path="/a.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390870497763" ignored="false" />
@@ -77,14 +81,15 @@
     <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/behavior/SConcept_Behavior.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
     <file path="$USER_HOME$/work/mps/plugins/newLanguageDesign/languages/structure/source_gen/jetbrains/mps/core/structure/editor/SCardinality_Editor.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253717222" ignored="false" />
     <file path="$USER_HOME$/work/mps/core/kernel/source/jetbrains/mps/smodel/SModelUtil_new.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390253753642" ignored="false" />
-    <file path="/PortConnection.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390844084703" ignored="false" />
-    <file path="/Game.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390848796395" ignored="false" />
+    <file path="/PortConnection.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390913774582" ignored="false" />
+    <file path="/Game.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390913476914" ignored="false" />
     <file path="/GameNotifier.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390846252810" ignored="false" />
     <file path="$USER_HOME$/work/mps/build/mpsExe.xml" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390868483244" ignored="false" />
     <file path="$USER_HOME$/work/mps/workbench/mps-workbench/source/jetbrains/mps/build/GenerateNSI.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390868588191" ignored="false" />
     <file path="/knopfy.xml" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390871909233" ignored="false" />
-    <file path="/knopfy.bat" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390870078822" ignored="false" />
+    <file path="/knopfy.bat" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390913857616" ignored="false" />
     <file path="/knopfy.mf" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390872906149" ignored="false" />
+    <file path="/ArduinoMain.java" changelist="4ec66dee-135b-4520-8010-29eeabe66b0d" time="1390913577695" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,9 +159,8 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/arduino/ui/MainFrame.java" line="193" class="arduino.ui.MainFrame.MyGameNotifier$2" package="arduino.ui">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/arduino/ui/MainFrame.java" line="194" class="arduino.ui.MainFrame.MyGameNotifier$2" package="arduino.ui">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -202,6 +206,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -214,15 +219,8 @@
       <file leaf-file-name="MainFrame.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arduino/ui/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="26" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#5769#5890#0" expanded="true" />
-                <element signature="e#5881#5882#0" expanded="true" />
-                <element signature="e#6304#6732#0" expanded="true" />
-                <element signature="e#6723#6724#0" expanded="true" />
-                <element signature="e#6835#7271#0" expanded="true" />
-                <element signature="e#7262#7263#0" expanded="true" />
-              </folding>
+            <state line="28" column="14" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -248,25 +246,25 @@
       <file leaf-file-name="ArduinoMain.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arduino/ArduinoMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+            <state line="8" column="39" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="knopfy.sh" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="knopfy.sh" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build/knopfy.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+            <state line="0" column="62" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="knopfy.bat" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="knopfy.bat" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/knopfy.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="50" vertical-scroll-proportion="0.0">
+            <state line="0" column="51" selection-start="51" selection-end="62" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -275,31 +273,7 @@
       <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arduino/game/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="3" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#356#374#0" expanded="true" />
-                <element signature="e#464#473#0" expanded="true" />
-                <element signature="e#517#634#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordStorage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arduino/words/WordStorage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="6" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameNotifier.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arduino/game/GameNotifier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="7" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+            <state line="23" column="11" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -308,7 +282,25 @@
       <file leaf-file-name="PortConnection.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arduino/game/PortConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="0" selection-start="2089" selection-end="2089" vertical-scroll-proportion="0.0">
+            <state line="28" column="43" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommPortIdentifier.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/rxtx/RXTXcomm.jar!/gnu/io/CommPortIdentifier.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="12.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArdGO.iml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ArdGO.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -332,7 +324,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/arduino/connect/Connections.java" />
         <option value="$PROJECT_DIR$/src/arduino/round/Round.java" />
         <option value="$PROJECT_DIR$/src/arduino/round/ButtonPressDispatcher.java" />
         <option value="$PROJECT_DIR$/src/arduino/connect/PortConnection.java" />
@@ -340,14 +331,15 @@
         <option value="$PROJECT_DIR$/src/arduino/connect/handler/PlayerHandler.java" />
         <option value="$PROJECT_DIR$/src/arduino/connect/GameNotifier.java" />
         <option value="$PROJECT_DIR$/src/arduino/connect/Game.java" />
-        <option value="$PROJECT_DIR$/src/arduino/game/PortConnection.java" />
         <option value="$PROJECT_DIR$/src/arduino/game/GameNotifier.java" />
-        <option value="$PROJECT_DIR$/src/arduino/game/Game.java" />
-        <option value="$PROJECT_DIR$/src/arduino/ui/MainFrame.java" />
-        <option value="$PROJECT_DIR$/build/knopfy.bat" />
-        <option value="$PROJECT_DIR$/build/knopfy.sh" />
         <option value="$PROJECT_DIR$/build/knopfy.xml" />
         <option value="$PROJECT_DIR$/build/knopfy.mf" />
+        <option value="$PROJECT_DIR$/src/arduino/game/Game.java" />
+        <option value="$PROJECT_DIR$/src/arduino/ui/MainFrame.java" />
+        <option value="$PROJECT_DIR$/src/arduino/ArduinoMain.java" />
+        <option value="$PROJECT_DIR$/src/arduino/game/PortConnection.java" />
+        <option value="$PROJECT_DIR$/build/knopfy.bat" />
+        <option value="$PROJECT_DIR$/build/knopfy.sh" />
       </list>
     </option>
   </component>
@@ -387,6 +379,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -433,27 +426,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arduino" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arduino_read" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArdGO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build/knopfy.xml" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build/knopfy.xml" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="arduino_read" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -468,8 +482,8 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -489,19 +503,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -529,6 +530,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -571,7 +585,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="arduino.ArduinoMain" />
       <option name="VM_PARAMETERS" value="-Djava.library.path=&quot;$PROJECT_DIR$/rxtx/&quot;" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="/dev/tty.usbserial-A6028DY45" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -714,7 +728,11 @@
       <created>1390871915829</created>
       <updated>1390871915829</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="correct manifest file">
+      <created>1390873034873</created>
+      <updated>1390873034873</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -722,12 +740,12 @@
     <editor active="false" />
     <layout>
       <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3490683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3689441" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.65093166" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6310559" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3985932" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -738,12 +756,12 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.65093166" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6705744" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6310559" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279503" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6705744" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -796,7 +814,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct build file" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct manifest file" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -827,6 +845,7 @@
     <MESSAGE value="bat and sh files created, first version of build file" />
     <MESSAGE value="manifest file for executable jar" />
     <MESSAGE value="correct build file" />
+    <MESSAGE value="correct manifest file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -839,26 +858,13 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
     <buildFile url="file://$PROJECT_DIR$/build/knopfy.xml">
+      <targetFilters>
+        <filter targetName="build" isVisible="false" />
+      </targetFilters>
       <expanded value="true" />
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/todo.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arduino/ui/Beeper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="9" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#228#728#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/work/jdk6u24_src_julia_ubunturepo.zip!/jdk6u24_src_julia_ubunturepo/java/net/URLClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="207" column="76" selection-start="7871" selection-end="7871" vertical-scroll-proportion="0.0" />
@@ -866,36 +872,17 @@
     </entry>
     <entry file="jar://$USER_HOME$/work/jdk6u24_src_julia_ubunturepo.zip!/jdk6u24_src_julia_ubunturepo/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="882" column="16" selection-start="34576" selection-end="34576" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="882" column="16" selection-start="34576" selection-end="34576" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/work/jdk6u24_src_julia_ubunturepo.zip!/jdk6u24_src_julia_ubunturepo/java/util/jar/Attributes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="13" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#22249#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="36" column="13" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/work/jdk6u24_src_julia_ubunturepo.zip!/jdk6u24_src_julia_ubunturepo/java/util/IdentityHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="13" selection-start="6034" selection-end="6034" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#45306#0" expanded="false" />
-            <element signature="e#42478#42508#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arduino/game/PortConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="2089" selection-end="2089" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="115" column="13" selection-start="6034" selection-end="6034" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arduino/game/GameNotifier.java">
@@ -905,43 +892,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arduino/game/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="3" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#356#374#0" expanded="true" />
-            <element signature="e#464#473#0" expanded="true" />
-            <element signature="e#517#634#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arduino/ui/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="26" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#5769#5890#0" expanded="true" />
-            <element signature="e#5881#5882#0" expanded="true" />
-            <element signature="e#6304#6732#0" expanded="true" />
-            <element signature="e#6723#6724#0" expanded="true" />
-            <element signature="e#6835#7271#0" expanded="true" />
-            <element signature="e#7262#7263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/arduino/words/WordStorage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="6" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arduino/ArduinoMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -960,16 +913,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/knopfy.sh">
+    <entry file="jar://$PROJECT_DIR$/rxtx/RXTXcomm.jar!/gnu/io/CommPortIdentifier.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+        <state line="6" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="12.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArdGO.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arduino/game/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="11" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arduino/ui/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="14" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arduino/ArduinoMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="39" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arduino/game/PortConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="43" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/knopfy.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="50" vertical-scroll-proportion="0.0">
+        <state line="0" column="51" selection-start="51" selection-end="62" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/knopfy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="62" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

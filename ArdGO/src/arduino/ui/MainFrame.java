@@ -20,15 +20,16 @@ public class MainFrame extends JFrame {
   public static final float BTN_TEXT_SIZE = 50.0f;
   private final List<JTextField> myNames = new ArrayList<JTextField>();
   private WordStorage myStorage = new WordStorage();
-  private Game myGame = new Game(new MyGameNotifier());
+  private Game myGame;
   private CardLayout myStatusControl;
   private JPanel myStatusPanel;
   private JPanel myNamesPanel;
   private JLabel myWordLabel;
 
-  public MainFrame() throws HeadlessException {
+  public MainFrame(String portName) throws HeadlessException {
     super("Knopfy");
 
+    myGame = new Game(portName,new MyGameNotifier());
 //    JMenuBar menu = new JMenuBar();
 //    menu.add(new JMenuItem(new AbstractAction("Neue Spiel") {
 //      @Override

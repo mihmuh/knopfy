@@ -21,9 +21,9 @@ public class Game {
     }
   };
 
-  public Game(GameNotifier myNotifier) {
+  public Game(String portName,GameNotifier myNotifier) {
     this.myNotifier = myNotifier;
-    myConnection.init();
+    myConnection.init(portName);
   }
 
   public void dispose() {

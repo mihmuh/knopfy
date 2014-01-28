@@ -1,1 +1,1 @@
-java -Djava.library.path="./rxtx/" -jar knopfy.jar
+java -Djava.library.path="./rxtx/" -jar knopfy.jar COMPortHere
