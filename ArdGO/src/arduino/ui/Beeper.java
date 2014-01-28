@@ -3,6 +3,7 @@ package arduino.ui;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
+import java.io.BufferedInputStream;
 
 public class Beeper {
   public static void playSound(final String url) {
@@ -13,7 +14,7 @@ public class Beeper {
         try {
           Clip clip = AudioSystem.getClip();
           AudioInputStream inputStream = AudioSystem.getAudioInputStream(
-                  Beeper.class.getResourceAsStream(url));
+                  new BufferedInputStream(Beeper.class.getResourceAsStream(url)));
           clip.open(inputStream);
           clip.start();
         } catch (Exception e) {
